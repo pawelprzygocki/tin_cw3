@@ -1,0 +1,22 @@
+table{
+border: 2px solid black;
+border-spacing: 0px;
+}
+
+th{
+border-bottom: 2px solid black;
+background: #ffffff;
+}
+
+td{
+padding: 3px;
+}
+
+tr:nth-child(odd){
+background: #EFEFFF
+}
+
+tr td:nth-child(n+3)
+{
+	text-align: right;
+}

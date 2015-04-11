@@ -1,0 +1,58 @@
+nav{
+min-width: 640;
+}
+
+nav ul{
+list-style: none;
+border-radius: 10px 10px 0px 0px;
+background: #bebebe;
+padding: 10px 10px 0px;
+text-align: center;
+}
+
+ul li ul{
+padding: 0;
+background: none;
+}
+
+ul .selected{
+background: #E7E3E7;
+border-bottom: none;
+}
+
+ul li{
+border: 2px solid black;
+display: inline-block;
+padding: 5px 5px 5px;
+background: #bebebe;
+text-align: center;
+border-bottom: none;
+border-radius: 10px 10px 0px 0px;
+}
+
+.clickable{
+cursor: pointer;
+text-decoration: underline;
+}
+
+.clickable:hover{
+background-color: #ffff00;
+}
+
+.single {
+height: 50px;
+vertical-align: top;
+}
+
+.double{
+height: 80px;
+width: 90px;
+vertical-align: top;
+position: relative;
+}
+
+.double ul{
+vertical-align: bottom;
+position: absolute;
+bottom: 0;
+}

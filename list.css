@@ -1,0 +1,33 @@
+div {
+display: block;
+}
+
+ul{
+list-style: none;
+}
+
+li div.icon {
+float: left;
+cursor: pointer;
+}
+
+li.open div.icon {
+width: 15px;
+height: 15px;
+background: url("icons.png");
+background-position: 0px 30px;
+}
+
+li.closed div.icon {
+width: 15px;
+height: 15px;
+background: url("icons.png");
+background-position: 0px 0px;
+}
+
+li.leaf div.icon {
+width: 15px;
+height: 15px;
+background: url("icons.png");
+background-position: 0px 15px;
+}

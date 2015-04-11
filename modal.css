@@ -1,0 +1,15 @@
+body{
+margin: 0;
+}
+
+#box{
+position: fixed;
+width: 100%;
+height: 100%;
+background-color: rgba(100,149,237,0.5);
+text-align: center;
+}
+
+#box button{
+	margin-top: 25%;
+}
